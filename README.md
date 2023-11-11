@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+location / {
+    proxy_set_header   X-Forwarded-For $remote_addr;
+    proxy_set_header   Host $http_host;
+    proxy_pass         http://127.0.0.1:3000;
+}

@@ -2,7 +2,7 @@
 /* Create a class that causes the page to be the full viewport and shows the background image with centered text*/
 .full-viewport-centered-white-text-background {
   height: 100vh;
-  background-image: url("/public/no.avif");
+  background-image: url("/public/nei.jpeg");
   background-repeat: no-repeat;
   background-size: fill;
   background-position: center;
